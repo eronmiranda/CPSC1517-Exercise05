@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29209.62
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppFSIS", "WebAppFSIS\WebAppFSIS.csproj", "{38234DEE-B2B6-4659-8C03-F14E5419E8E8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BAD64B1F-4475-454A-9183-D7D2193857B6} = {BAD64B1F-4475-454A-9183-D7D2193857B6}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSISSystem", "FSISSystem\FSISSystem.csproj", "{BAD64B1F-4475-454A-9183-D7D2193857B6}"
 EndProject
